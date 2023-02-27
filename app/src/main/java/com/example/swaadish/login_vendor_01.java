@@ -45,7 +45,7 @@ public class login_vendor_01 extends AppCompatActivity {
                             public void onSuccess(AuthResult authResult) {
                                 progressDialog.cancel();
                                 Toast.makeText(login_vendor_01.this, "login successful", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(login_vendor_01.this, VendorHome.class));
+                                startActivity(new Intent(login_vendor_01.this, Vendor_main.class));
 
 
 
