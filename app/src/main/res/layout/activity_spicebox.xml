@@ -67,13 +67,16 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/spice_box_res"
+
+
                 android:layout_width="241dp"
                 android:layout_height="127dp"
                 android:layout_alignParentRight="true"
                 android:text="Spice Box"
                 android:textAlignment="center"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="35dp">
 
             </TextView>
@@ -197,12 +200,13 @@
                 android:background="#afeeee">
 
                 <TextView
+                    android:id="@+id/half_Qty"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="#ffddee"
                     android:text="Half Tiffin "
-                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:background="#ffddee">
+                    android:textStyle="bold">
 
 
                 </TextView>
@@ -260,6 +264,7 @@
 
 
                 <TextView
+                    android:id="@+id/full_qty"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#ffddee"

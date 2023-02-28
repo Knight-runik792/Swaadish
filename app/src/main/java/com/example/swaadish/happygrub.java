@@ -37,6 +37,11 @@ public class happygrub extends AppCompatActivity {
         TextView halfprice =findViewById(R.id.halfprice);
         TextView fullprice =findViewById(R.id.fullprice);
 
+        TextView servicename = findViewById(R.id.happy_grub);
+        TextView tiffin_qty = findViewById(R.id.half_happy);
+        TextView tiffin_qtyff = findViewById(R.id.full_happy);
+
+
         button = (Button) findViewById(R.id.half_tiffin);
         button.setOnClickListener(new View.OnClickListener(){
 
@@ -45,10 +50,17 @@ public class happygrub extends AppCompatActivity {
                                       public void onClick(View v) {
 
                                           String Value = halfprice.getText().toString();
+                                          String Value1 = servicename.getText().toString();
+                                          String Value2 = tiffin_qty.getText().toString();
+
 
                                           Intent intent =new Intent(happygrub.this, payment.class);
                                           intent.putExtra("abc", Value);
+                                          intent.putExtra("bc", Value1);
+                                          intent.putExtra("c", Value2);
+
                                           startActivity(intent);
+
 
                                       }
                                   }
@@ -63,10 +75,15 @@ public class happygrub extends AppCompatActivity {
                                       public void onClick(View v) {
 
                                           String Value2 = fullprice.getText().toString();
+                                          String Value1 = servicename.getText().toString();
+                                          String Value3 = tiffin_qtyff.getText().toString();
+
 
 
                                           Intent intent =new Intent(happygrub.this, payment.class);
                                           intent.putExtra("abc", Value2);
+                                          intent.putExtra("bc", Value1);
+                                          intent.putExtra("c", Value3);
                                           startActivity(intent);
 
                                       }

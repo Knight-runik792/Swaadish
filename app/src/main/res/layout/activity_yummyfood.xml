@@ -67,13 +67,14 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/yummy_food"
                 android:layout_width="241dp"
                 android:layout_height="127dp"
                 android:layout_alignParentRight="true"
                 android:text="Yummy Food Service"
                 android:textAlignment="center"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="35dp">
 
             </TextView>
@@ -204,12 +205,13 @@
                 android:background="#afeeee">
 
                 <TextView
+                    android:id="@+id/half_yummy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="#ffddee"
                     android:text="Half Tiffin "
-                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:background="#ffddee">
+                    android:textStyle="bold">
 
 
                 </TextView>
@@ -267,6 +269,7 @@
 
 
                 <TextView
+                    android:id="@+id/full_yummy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#ffddee"

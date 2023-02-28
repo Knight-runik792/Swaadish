@@ -17,6 +17,8 @@ public class spicebox extends AppCompatActivity {
         setContentView(R.layout.activity_spicebox);
 
 
+
+
         button = (Button) findViewById(R.id.half_tiffin);
         button.setOnClickListener(new View.OnClickListener(){
 
@@ -37,6 +39,11 @@ public class spicebox extends AppCompatActivity {
         TextView halfprice =findViewById(R.id.halfprice);
         TextView fullprice =findViewById(R.id.fullprice);
 
+        TextView servicename = findViewById(R.id.spice_box_res);
+        TextView tiffin_qty = findViewById(R.id.half_Qty);
+        TextView tiffin_qtyff = findViewById(R.id.full_qty);
+
+
         button = (Button) findViewById(R.id.half_tiffin);
         button.setOnClickListener(new View.OnClickListener(){
 
@@ -46,8 +53,13 @@ public class spicebox extends AppCompatActivity {
 
                                           String Value = halfprice.getText().toString();
 
+                                          String Value1 = servicename.getText().toString();
+                                          String Value2 = tiffin_qty.getText().toString();
+
                                           Intent intent =new Intent(spicebox.this, payment.class);
                                           intent.putExtra("abc", Value);
+                                          intent.putExtra("bc", Value1);
+                                          intent.putExtra("c", Value2);
                                           startActivity(intent);
 
                                       }
@@ -64,10 +76,16 @@ public class spicebox extends AppCompatActivity {
                                       public void onClick(View v) {
 
                                           String Value2 = fullprice.getText().toString();
+                                          String Value1 = servicename.getText().toString();
+                                          String Value3 = tiffin_qtyff.getText().toString();
+
 
 
                                           Intent intent =new Intent(spicebox.this, payment.class);
                                           intent.putExtra("abc", Value2);
+                                          intent.putExtra("bc", Value1);
+                                          intent.putExtra("c", Value3);
+
                                           startActivity(intent);
 
                                       }

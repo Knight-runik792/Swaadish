@@ -1,31 +1,12 @@
 package com.example.swaadish;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
-import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toolbar;
-
-import com.google.android.gms.location.FusedLocationProviderClient;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.type.LatLng;
 
 public class payment extends AppCompatActivity {
 
@@ -42,10 +23,29 @@ public class payment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
+        TextView servicee = findViewById(R.id.rest_anna);
+        TextView tiffinn_qty = findViewById(R.id.tiffin_qty);
+
+
+
+
+
+
         TextView subtotal = findViewById(R.id.sub_total);
         Bundle bn = getIntent().getExtras();
         String name = bn.getString("abc");
         subtotal.setText(String.valueOf(name));
+
+        String name2 = bn.getString("bc");
+        servicee.setText(String.valueOf(name2));
+
+        String name3 = bn.getString("c");
+        tiffinn_qty.setText(String.valueOf(name3));
+
+
+
+
+        Button submitt = findViewById(R.id.cash);
 
 
 
@@ -57,6 +57,9 @@ public class payment extends AppCompatActivity {
                                       public void onClick(View v) {
                                           Intent intent =new Intent(payment.this, orderConfirmed.class);
                                           startActivity(intent);
+
+
+
 
                                       }
                                   }
