@@ -10,6 +10,12 @@
     <string name="previous">Previous</string>
     <string name="your_orders">Your Orders</string>
 
+    <array name="res">
+        <item>annapurna</item>
+        <item>spice Box</item>
+        <item>yummy food</item>
+    </array>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
