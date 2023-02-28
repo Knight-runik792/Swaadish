@@ -67,13 +67,14 @@
             </ImageView>
 
             <TextView
+                android:id="@+id/mumbai_dabba"
                 android:layout_width="241dp"
                 android:layout_height="127dp"
                 android:layout_alignParentRight="true"
                 android:text="Mumbai Dabbawala "
                 android:textAlignment="center"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="35dp">
 
             </TextView>
@@ -204,12 +205,13 @@
                 android:background="#afeeee">
 
                 <TextView
+                    android:id="@+id/half_mumbai"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="#ffddee"
                     android:text="Half Tiffin "
-                    android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:background="#ffddee">
+                    android:textStyle="bold">
 
 
                 </TextView>
@@ -267,6 +269,7 @@
 
 
                 <TextView
+                    android:id="@+id/full_mumbai"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="#ffddee"
