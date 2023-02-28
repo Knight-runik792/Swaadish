@@ -86,14 +86,7 @@ public class settingsFragment extends Fragment {
         super.onStart();
 
 
-        button = (Button) context.findViewById(R.id.view_profile);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, appProfile.class);
-                startActivity(intent);
-            }
-        });
+
 
         button = (Button) context.findViewById(R.id.logout_);
         button.setOnClickListener(new View.OnClickListener() {

@@ -16,10 +16,17 @@
 <!--        android:type="linear"-->
 <!--        android:gradientRadius="500dp"-->
 <!--        />-->
-    <solid
-        android:color="#FF7518">
+<!--    <solid-->
+<!--        android:color="#FF7518">-->
 
-    </solid>
+
+<!--    </solid>-->
+    <gradient
+        android:startColor="#fdfcfb"
+        android:endColor="#e7bd9a"
+        android:type="linear"
+        android:angle="135"
+        />
     <padding
         android:left="0dp"
         android:top="0dp"

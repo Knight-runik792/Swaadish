@@ -30,23 +30,23 @@
         android:background="#ffeeee"
         android:ems="10"
         android:hint=" Full name"
-        android:textColor="@color/black"
-
         android:inputType="textPersonName"
+
         android:text=""
+        android:textColor="@color/black"
         android:textColorHint="#cc7722"
         app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:layout_constraintVertical_bias="0.648" />
+        app:layout_constraintVertical_bias="0.718" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="309dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="408dp"
+        android:layout_marginBottom="400dp"
         android:background="#ffeeee"
         android:ems="10"
         android:hint=" Password"
@@ -66,29 +66,29 @@
         android:background="#ffeeee"
         android:ems="10"
         android:hint=" Email Address"
-        android:textColor="@color/black"
-
         android:inputType="textEmailAddress"
+
+        android:textColor="@color/black"
         android:textColorHint="#cc7722"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneNumber"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.062" />
 
     <EditText
         android:id="@+id/gstnumber"
         android:layout_width="311dp"
         android:layout_height="47dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="#ffeeee"
         android:ems="10"
-        android:textColor="@color/black"
-
         android:hint=" GST number"
+
         android:inputType="textPersonName"
         android:text=""
+        android:textColor="@color/black"
         android:textColorHint="#cc7722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.55"
