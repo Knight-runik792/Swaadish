@@ -23,18 +23,18 @@
        </TextView>
 
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:id="@+id/view_profile"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/login_opt_buttons"
-            android:padding="15dp"
-            android:text="View Porfile">
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/view_profile"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:background="@drawable/login_opt_buttons"-->
+<!--            android:padding="15dp"-->
+<!--            android:text="View Porfile">-->
 
 
-        </Button>
+<!--        </Button>-->
 
         <Button
             android:layout_width="wrap_content"
@@ -42,6 +42,7 @@
             android:background="@drawable/login_opt_buttons"
             android:text="Logout"
             android:id="@+id/logout_"
+
 
             android:padding="15dp"
             android:layout_marginTop="25dp"

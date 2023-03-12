@@ -8,6 +8,7 @@
     <string name="menu_open">Open</string>
     <string name="menu_close">Close</string>
     <string name="previous">Previous</string>
+    <string name="your_orders">Your Orders</string>
 
     <array name="res">
         <item>annapurna</item>

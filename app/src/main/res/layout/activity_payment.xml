@@ -85,7 +85,7 @@
             android:layout_margin="25dp"
             android:background="@drawable/opt_buttons"
             android:text="Cash on Delivery"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <Button
@@ -95,7 +95,7 @@
             android:layout_gravity="center"
             android:background="@drawable/opt_buttons"
             android:text="Card"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
 
@@ -138,6 +138,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/opt_buttons"
+        android:textColor="@color/black"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/sub_total"
         app:layout_constraintEnd_toEndOf="parent"
@@ -167,6 +168,7 @@
         android:layout_height="44dp"
         android:background="@drawable/opt_buttons"
         android:gravity="center"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/sub_total"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
@@ -182,7 +184,8 @@
         android:background="@drawable/opt_buttons"
         android:gravity="center"
 
-        android:text="$ 0"
+        android:text="Rs. 0"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"

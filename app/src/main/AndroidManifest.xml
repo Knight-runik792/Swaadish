@@ -18,6 +18,13 @@
         android:theme="@style/Theme.Swaadish"
         tools:targetApi="31">
         <activity
+            android:name=".ConstructionUnderWay"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".manageMenu"
             android:exported="false">
             <meta-data
@@ -75,13 +82,6 @@
         </activity>
         <activity
             android:name=".orderConfirmed"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".VendorHome"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

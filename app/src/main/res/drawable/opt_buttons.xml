@@ -6,15 +6,26 @@
         android:bottomLeftRadius="25dp"
         android:bottomRightRadius="25dp"
         />
+<!--    <gradient-->
+<!--        android:angle="45"-->
+<!--        android:centerX="35%"-->
+
+<!--        android:startColor="#8F00FF"-->
+<!--        android:endColor="#9fafca"-->
+
+<!--        android:type="linear"-->
+<!--        android:gradientRadius="500dp"-->
+<!--        />-->
+<!--    <solid-->
+<!--        android:color="#FF7518">-->
+
+
+<!--    </solid>-->
     <gradient
-        android:angle="45"
-        android:centerX="35%"
-
-        android:startColor="#8F00FF"
-        android:endColor="#9fafca"
-
+        android:startColor="#fdfcfb"
+        android:endColor="#e7bd9a"
         android:type="linear"
-        android:gradientRadius="500dp"
+        android:angle="135"
         />
     <padding
         android:left="0dp"

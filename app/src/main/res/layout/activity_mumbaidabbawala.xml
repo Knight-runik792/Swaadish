@@ -221,14 +221,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
                     android:textColor="@color/black"
-                    android:text="One sabji, 3 chapati and dal">
+                    android:text="One sabji, 3 chapati and dal"
+                    android:textStyle="bold">
 
                 </TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:id="@+id/halfprice"
-                    android:text="80"
+                    android:text="Rs.80"
                     android:textColor="@color/black"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="45dp">
@@ -238,14 +239,17 @@
 
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/half_tiffin"
-
+                    android:layout_width="126dp"
+                    android:layout_height="24dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginRight="14dp"
-                    android:layout_marginTop="17dp"
-                    android:text="Order">
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/login_opt_buttons"
+                    android:text="Order"
+                    android:textColor="@color/white">
 
                 </Button>
 
@@ -285,7 +289,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
                     android:textColor="@color/black"
-                    android:text="One sabji, 3 chapati, dal and rice">
+                    android:text="One sabji, 3 chapati, dal and rice"
+                    android:textStyle="bold">
 
                 </TextView>
 
@@ -295,7 +300,7 @@
                     android:layout_marginTop="65dp"
                     android:textColor="@color/black"
                     android:id="@+id/fullprice"
-                    android:text="100">
+                    android:text="Rs.100">
 
 
                 </TextView>
@@ -303,12 +308,18 @@
 
                 <Button
                     android:id="@+id/full_tiffin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="131dp"
+                    android:layout_height="25dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="14dp"
-                    android:text="Order">
+
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="41dp"
+                    android:background="@drawable/login_opt_buttons"
+                    android:text="Order"
+                    android:textColor="@color/white">
 
                 </Button>
 
